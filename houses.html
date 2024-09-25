@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="houses.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="img/logo.jpg" alt="">
+            <p>2021 dec - 2023 dec</p>
+        </div>
+      
+        
+        <!-- drop down mwnu -->
+        <div class="sidenav" id="mySidenav">
+            <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+            <br>
+            <div class="link">
+                <img src="img/home.jpg" alt=""> <a href="index.html">home</a>
+                </div>
+        <div class="link">
+        <img src="img/houserepo.jpg" alt=""> <a href="status.html">reposesed-houses</a>
+        </div>
+        <div class="link">
+            <img src="img/housesell.jpg" alt=""> <a href="houses.html">listings</a>
+        </div>
+        </div>
+        <span class="menu-logo" onclick="openNav()" style="font-size: 30px;cursor: pointer;">&#9776;</span>
+
+        <!-- table -->
+         <div class="table-container">
+            <table>
+                <tr>
+                    <th>origin</th>
+                    <th>renovared</th>
+                    <th>details</th>
+                </tr>
+                <tr>
+                    <td><img src="img/house1.jpg" alt=""></td>
+                    <td><img src="img/house1Reno.jpg" alt=""></td>
+                    <td>
+                        <h1>Johanesburg Midrand</h1>
+                        <h2>R480 000 </h2>
+                        <p>2 bed house in midrand central Johanesburg</p>
+                        <p>1216 swety street</p>
+                        <div class="icons">
+                            <div class="icon-detail">
+                                <i class="fa fa-bed"><p>2</p></i>
+                                <i class="fa fa-bath"><p>1</p></i>
+                                <i class="fa fa-car"><p>1</p></i>
+                                <i class="fa fa-object-ungroup"><p>805m^2</p></i>
+                            </div>
+                        </div>
+                        <button><a href="prop1.html">view house</a></button>
+                    </td>
+                </tr>
+                
+                <!--  -->
+                <tr style="padding-top: 4%;">
+                    
+                    <td>
+                        <br>
+                        <img src="img/house3.jpg" alt=""></td>
+                    <td><br><img src="img/op.jpg" alt=""></td>
+                    <td>
+                        <br>
+                        <h1>Polokwane seshego</h1>
+                        <h2>R380 000 </h2>
+                        <p>2 bed house in polokeane seshego</p>
+                        <p>1216 swety street</p>
+                        <div class="icons">
+                            <div class="icon-detail">
+                                <i class="fa fa-bed"><p>2</p></i>
+                                <i class="fa fa-bath"><p>1</p></i>
+                                <i class="fa fa-car"><p>1</p></i>
+                                <i class="fa fa-object-ungroup"><p>805m^2</p></i>
+                            </div>
+                        </div>
+                        <button><a href="prop2.html">view house</a></button>
+                    </td>
+                </tr>
+            </table>
+         </div>
+         <div class="footer">
+            <p>--gui software development--</p>
+        </div>
+    </div>
+    <script src="houses.js"></script>
+</body>
+</html>
